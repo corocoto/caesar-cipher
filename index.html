@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Шифр Цезаря</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+		}
+		h1{
+			text-align: center;
+		}
+		.vvod{
+			display: flex;
+			justify-content: center;
+		}
+		input{
+			border-radius: 3px;
+			margin-right: 5px;
+			width: 300px;
+		}
+		input:last-child{
+			margin-right: 0;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>Шифр Цезаря на JS</h1>
+	<div class="vvod">
+		<input type="text" required placeholder="Введите текст, который хотите зашифровать" id="text">
+		<input type="number" min="0" required placeholder="Введите число" id="numbers" />
+		<input type="submit" onclick="result()">
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
