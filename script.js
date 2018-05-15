@@ -6,9 +6,11 @@ function result() {
 		massiv[i]=text.charAt(i);
 	}
 	var resultat=[];
-	if (numbers>=text.length){
-		numbers=numbers-text.length;
-	}
+	// if (numbers>=text.length){
+		while (numbers>=text.length){
+			numbers=numbers-text.length;
+		} 
+	// }
 	for (var i = massiv.length; i >= 0; i--) {
 		var j=i+(numbers*1);
 		if (j>=massiv.length){
