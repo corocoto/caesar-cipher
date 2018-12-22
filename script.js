@@ -1,7 +1,8 @@
 function result() {
 	var text=document.getElementById('text').value;
 	var numbers=document.getElementById('numbers').value;
-	var massiv=[];
+	if (text!="" && numbers!="") {
+		var massiv=[];
 	for (var i = 0; i < text.length; i++) {
 		massiv[i]=text.charAt(i);
 	}
@@ -17,11 +18,14 @@ function result() {
 			resultat[i+(numbers*1)]=massiv[i];
 		}
 	}
-	console.log(resultat);
+	//console.log(resultat);
 	var word='';
 	for (var i=0; i<resultat.length; i++){
 		word=word+resultat[i];
 	}
 	alert(word);
-	console.log(resultat);
-}
+	//console.log(resultat);
+	} else {
+		alert("Введите все необходимые данные и повторите попытку");
+	}
+};
