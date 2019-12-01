@@ -1,0 +1,33 @@
+{
+  "name": "Caesar-cipher",
+  "version": "1.0.0",
+  "description": "Cipher of Caesar writing on JavaScript",
+  "main": "utils/cipher.js",
+  "scripts": {
+    "start": "node cipher",
+    "dev": "nodemon cipher"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CreativeRusBear/CipherOfCaesar.git"
+  },
+  "keywords": [
+    "Cipher",
+    "JavaScript",
+    "Caesar-Cipher"
+  ],
+  "author": "Artem Gusev <gusev2014russia@mail.ru> (CreativeRusBear)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CreativeRusBear/CipherOfCaesar/issues"
+  },
+  "homepage": "https://github.com/CreativeRusBear/CipherOfCaesar#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.0",
+    "nodemon": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  }
+}
