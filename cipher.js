@@ -44,5 +44,5 @@ class RunCipher{
     }
 }
 
-const progam = new RunCipher();
-progam.answerTheQuestions();
+const program = new RunCipher();
+program.answerTheQuestions();
