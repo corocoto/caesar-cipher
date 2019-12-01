@@ -1,5 +1,16 @@
 # Caesar Cipher
 
+![GitHub top language](https://img.shields.io/github/languages/top/CreativeRusBear/Caesar-Cipher)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/CreativeRusBear/Caesar-Cipher)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/CreativeRusBear/Caesar-Cipher)
+![GitHub repo size](https://img.shields.io/github/repo-size/CreativeRusBear/Caesar-Cipher)
+![GitHub issues](https://img.shields.io/github/issues/CreativeRusBear/Caesar-Cipher)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/CreativeRusBear/Caesar-Cipher)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/CreativeRusBear/Caesar-Cipher)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/CreativeRusBear/Caesar-Cipher)
+![GitHub](https://img.shields.io/github/license/CreativeRusBear/Caesar-Cipher)
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/CreativeRusBear/Caesar-Cipher)
+
 ## Introduction
 
 **The Caesar cipher** is a type of substitution cipher in which each letter in the plaintext is 'shifted' a certain number of places down the alphabet.
