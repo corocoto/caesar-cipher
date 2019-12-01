@@ -23,7 +23,7 @@ This application is created using :bookmark_tabs: :
 
 ## License
 
-**Cheetah Software** is open-sourced software licensed under the MIT License (MIT). Please see [License File](LICENSE) for more information
+**Caesar Cipher** is open-sourced software licensed under the MIT License (MIT). Please see [License File](LICENSE) for more information
 
 ## Conclusion
 
