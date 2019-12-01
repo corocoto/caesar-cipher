@@ -11,7 +11,7 @@ It is a CLI application, that cipher input text.
 This application is created using :bookmark_tabs: :
  * `JavaScript` - programming language;
  * `Node.js` - `JavaScript` runtime built. (An asynchronous event-driven `JavaScript` runtime, `Node.js` is designed to build scalable network applications);
- * `chalk` - The `Node.js` module, that help styling cli messages and commands.
+ * `chalk` - The `Node.js` module, that help styling cli messages and commands;
   * `inquirer` - The `Node.js` module, that provide the user interface, and the inquiry session flow.
  
 ## Instructions :clipboard:
