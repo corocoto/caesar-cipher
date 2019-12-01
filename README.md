@@ -1,23 +1,34 @@
-<h1>Шифр Цезаря</h1>
-<nav>
-  <ul>
-    <li>
-      <h3>Описание</h3>
-      <p>Шифр Цезаря — это вид шифра подстановки, в котором каждый символ в открытом тексте заменяется символом, находящимся на некотором постоянном числе позиций левее или правее него в алфавите. </p>
-    <li>
-      <h3>Стек технологий</h3>
-      <p>В своем приложении я использвал следующий стек: HTML5, CSS3 (flexbox), JavaScript</p>
-    <li>
-      <h3>Скриншоты</h3>
-      <img src="https://user-images.githubusercontent.com/37180024/50375854-6d56dd80-0615-11e9-96de-376102354ace.jpg" alt="Внешний вид приложения">
-      <img src="https://user-images.githubusercontent.com/37180024/50375853-6cbe4700-0615-11e9-907d-4bfd918cafbd.jpg" alt="Работа приложения">
-    <li>
-			<h3>Инструкция по использованию</h3>
-			<p>Для того, чтобы начать использовать данное приложение необходимо скачать все необходимые файлы. Для этого на странице репозитория нужно нажать на кнопку "Clone or download". После этого появится окошко, в котором следует нажать на кнопку "Download ZIP".</p>
-			<p>После того, как скачается zip-архив, его необходимо распаковать. После распаковки открываем папку "CipherOfCaesar-master" и открываем файл "index.html".</p>
-		<li>
-			<h3>Обратная связь</h3>
-			<p>Если вы хотите поделиться советом или задать какой-то вопрос, пишите мне на электоронную почту.</p>
-			<p>Если же вы нашли баг или у вас возникли вопросы, создайте раздел в "Issue" на GitHub или же просто свяжитесь со мной.</p>
-  </ul>
-</nav>
+# Caesar Cipher
+
+## Introduction
+
+**The Caesar cipher** is a type of substitution cipher in which each letter in the plaintext is 'shifted' a certain number of places down the alphabet.
+
+## About application
+
+It is a CLI application, that cipher input text.
+
+This application is created using :bookmark_tabs: :
+ * `JavaScript` - programming language;
+ * `Node.js` - `JavaScript` runtime built. (An asynchronous event-driven `JavaScript` runtime, `Node.js` is designed to build scalable network applications);
+ * `chalk` - The `Node.js` module, that help styling cli messages and commands;
+  * `inquirer` - The `Node.js` module, that provide the user interface, and the inquiry session flow.
+ 
+## Instructions :clipboard:
+
+1. Download application and unpack it;
+2. Move into unpack folder;
+3. Run `terminal` inside this folder;
+4. Run next command: `npm run start`.
+
+## License
+
+**Cheetah Software** is open-sourced software licensed under the MIT License (MIT). Please see [License File](LICENSE) for more information
+
+## Conclusion
+
+If you still have questions about the work of this application :grey_question: or you have cool ideas for improvement :boom:, please write to me :email:.
+
+If you find a bug :bug:, please create an appropriate issue with detailed information about it :speech_balloon:.
+
+Thanks!
