@@ -10,6 +10,7 @@
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/CreativeRusBear/Caesar-Cipher)
 ![GitHub](https://img.shields.io/github/license/CreativeRusBear/Caesar-Cipher)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/CreativeRusBear/Caesar-Cipher)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/CreativeRusBear/caesar-cipher)
 
 ## Introduction
 
