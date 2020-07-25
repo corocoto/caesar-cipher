@@ -1,34 +1,34 @@
 {
   "name": "Caesar-cipher",
   "version": "1.0.0",
-  "description": "Cipher of Caesar writing on JavaScript",
-  "main": "utils/cipher.js",
+  "description": "Caesar cipher writing on JavaScript",
+  "main": "cipher.js",
   "scripts": {
     "start": "node cipher",
     "dev": "nodemon cipher"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CreativeRusBear/CipherOfCaesar.git"
+    "url": "git+https://github.com/corocoto/CipherOfCaesar.git"
   },
   "keywords": [
-    "Cipher",
-    "JavaScript",
-    "Caesar-Cipher"
+    "cipher",
+    "javascript",
+    "caesar-cipher"
   ],
-  "author": "Artem Gusev <gusev2014russia@mail.ru> (CreativeRusBear)",
+  "author": "Artem Gusev (corocoto) <gusev2014russia@mail.ru>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CreativeRusBear/CipherOfCaesar/issues"
+    "url": "https://github.com/corocoto/CipherOfCaesar/issues"
   },
-  "homepage": "https://github.com/CreativeRusBear/CipherOfCaesar#readme",
+  "homepage": "https://github.com/corocoto/CipherOfCaesar#readme",
   "dependencies": {
     "chalk": "^3.0.0",
-    "inquirer": "^7.0.0",
-    "nodemon": "^2.0.1"
+    "inquirer": "^7.3.3",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
-    "jsdoc": "^3.6.3"
+    "eslint": "^6.8.0",
+    "jsdoc": "^3.6.5"
   }
 }

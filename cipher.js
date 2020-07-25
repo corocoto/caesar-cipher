@@ -1,12 +1,12 @@
 /**
  * @version v1.0.0
- * @file Caesar cipher implementation on node.js
- * @author Artem Gusev <gusev2014russia@mail.ru> (CreativeRusBear)
+ * @file Caesar cipher implementation on Node.js
+ * @author Artem Gusev (corocoto) <gusev2014russia@mail.ru>
  * @copyright Artem Gusev 2019
  * @licence
  * MIT License
  *
- * Copyright (c) 2019 Artem Gusev
+ * Copyright (c) 2019 - present Artem Gusev
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -36,8 +36,10 @@ const chalk = require('chalk');
  * @class
  * @description Run cipher program
  * @example
+ * ```js
  * const program = new RunCipher();
  * program.answerTheQuestions();
+ * ```
  */
 class RunCipher {
 	/**
@@ -85,6 +87,9 @@ class RunCipher {
 	 * @param number {Number} Shift by a certain number of characters
 	 */
 	getRes (text, number) {
+		if (Number.isNaN(number) || number < 0){
+			throw new Error('incorrect number value');
+		}
 		while (number >= text.length) {
 			number-=text.length;
 		}
