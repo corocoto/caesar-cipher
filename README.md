@@ -20,6 +20,8 @@
 
 It is a CLI application, that cipher input text.
 
+![screencast](https://user-images.githubusercontent.com/37180024/88457248-92649f80-ce8d-11ea-99c1-0e90f33377cf.gif)
+
 This application is created using :bookmark_tabs: :
  * `JavaScript` - programming language;
  * `Node.js` - `JavaScript` runtime built. (An asynchronous event-driven `JavaScript` runtime, `Node.js` is designed to build scalable network applications);
