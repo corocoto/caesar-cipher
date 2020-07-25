@@ -1,12 +1,35 @@
 {
   "source": {
     "includePattern": ".+\\.js(doc|x)?$",
-    "include": ["."],
-    "exclude": ["node_modules"]
+    "include": [
+      "."
+    ],
+    "exclude": [
+      "node_modules"
+    ]
   },
   "recurseDepth": 10,
   "opts": {
+    "encoding": "utf8",
+    "readme": "./README.md",
+    "template": "./node_modules/clean-jsdoc-theme",
     "destination": "./docs/",
-    "recurse": true
+    "recurse": true,
+    "theme_opts": {
+      "menu": [
+        {
+          "title": "Github",
+          "link": "https://github.com/corocoto/Caesar-Cipher/",
+          "target": "_blank",
+          "class": "github-link",
+          "id": "github-link"
+        }
+      ],
+      "meta": [
+        "<meta name=\"author\" content=\"Artem Gusev\">",
+        "<meta name=\"description\" content=\"Caesar Cipher project documentation\">"
+      ],
+      "footer": "Copyright \t&#169; 2020 Artem Gusev. All right reserved."
+    }
   }
 }

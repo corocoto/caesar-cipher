@@ -1,11 +1,12 @@
 {
-  "name": "Caesar-cipher",
+  "name": "caesar-cipher",
   "version": "1.0.0",
   "description": "Caesar cipher writing on JavaScript",
   "main": "cipher.js",
   "scripts": {
     "start": "node cipher",
-    "dev": "nodemon cipher"
+    "dev": "nodemon cipher",
+    "docs": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/corocoto/CipherOfCaesar#readme",
   "dependencies": {
     "chalk": "^3.0.0",
+    "clean-jsdoc-theme": "^2.2.11",
     "inquirer": "^7.3.3",
     "nodemon": "^2.0.4"
   },
