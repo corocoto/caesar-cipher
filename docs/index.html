@@ -2,32 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      
+        <meta name="author" content="Artem Gusev">
+      
+        <meta name="description" content="Caesar Cipher project documentation">
+      
+    
+    <title>Home</title>
 
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/search.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.4.5/fuse.min.js"></script> -->
+    <script src="scripts/fuse.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/ionicons.min.css">
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
-</head>
+    <link type="text/css" rel="stylesheet" href="styles/clean-jsdoc-theme.css">
+    
+    
+    
+<svg aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none">
+    <defs>
+        <symbol id="copy-icon" viewbox="0 0 488.3 488.3">
+            <g>
+                <path d="M314.25,85.4h-227c-21.3,0-38.6,17.3-38.6,38.6v325.7c0,21.3,17.3,38.6,38.6,38.6h227c21.3,0,38.6-17.3,38.6-38.6V124    C352.75,102.7,335.45,85.4,314.25,85.4z M325.75,449.6c0,6.4-5.2,11.6-11.6,11.6h-227c-6.4,0-11.6-5.2-11.6-11.6V124    c0-6.4,5.2-11.6,11.6-11.6h227c6.4,0,11.6,5.2,11.6,11.6V449.6z"/>
+                <path d="M401.05,0h-227c-21.3,0-38.6,17.3-38.6,38.6c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5c0-6.4,5.2-11.6,11.6-11.6h227    c6.4,0,11.6,5.2,11.6,11.6v325.7c0,6.4-5.2,11.6-11.6,11.6c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5c21.3,0,38.6-17.3,38.6-38.6    V38.6C439.65,17.3,422.35,0,401.05,0z"/>
+            </g>
+        </symbol>
+    </defs>
+</svg>
 
+</head>
 <body>
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav>
+    <h2><a href="index.html"><div class="text">Home</div></a></h2><div class="search-box"><input type="text" placeholder="Search..." id="search-box" /><div class="search-item-container" id="search-item-container"><ul class="search-item-ul" id="search-item-ul"></ul></div></div><div class="sidebar-list-div"><ul><li><a href='https://github.com/corocoto/Caesar-Cipher/' class='github-link' id='github-link' target='_blank'>Github</a></li></ul><h3>Classes</h3><ul><li><a href="RunCipher.html">RunCipher</a><ul class='methods'><li data-type='method'><a href="RunCipher.html#answerTheQuestions">answerTheQuestions</a></li><li data-type='method'><a href="RunCipher.html#getRes">getRes</a></li></ul></li></ul></div>
+</nav>
 
 <div id="main">
-
-    <h1 class="page-title">Home</h1>
+    
 
     
 
 
 
     
-
-
-    <h3> </h3>
-
 
 
 
@@ -40,7 +71,44 @@
     
 
 
-
+    <section class="readme">
+        <article><h1>Caesar Cipher</h1>
+<p><img src="https://img.shields.io/github/languages/top/CreativeRusBear/Caesar-Cipher" alt="GitHub top language">
+<img src="https://img.shields.io/snyk/vulnerabilities/github/CreativeRusBear/Caesar-Cipher" alt="Snyk Vulnerabilities for GitHub Repo">
+<img src="https://img.shields.io/github/languages/code-size/CreativeRusBear/Caesar-Cipher" alt="GitHub code size in bytes">
+<img src="https://img.shields.io/github/repo-size/CreativeRusBear/Caesar-Cipher" alt="GitHub repo size">
+<img src="https://img.shields.io/github/issues/CreativeRusBear/Caesar-Cipher" alt="GitHub issues">
+<img src="https://img.shields.io/github/issues-closed/CreativeRusBear/Caesar-Cipher" alt="GitHub closed issues">
+<img src="https://img.shields.io/github/issues-pr/CreativeRusBear/Caesar-Cipher" alt="GitHub pull requests">
+<img src="https://img.shields.io/github/issues-pr-closed/CreativeRusBear/Caesar-Cipher" alt="GitHub closed pull requests">
+<img src="https://img.shields.io/github/license/CreativeRusBear/Caesar-Cipher" alt="GitHub">
+<img src="https://img.shields.io/github/v/tag/CreativeRusBear/Caesar-Cipher" alt="GitHub tag (latest by date)">
+<img src="https://img.shields.io/github/package-json/v/CreativeRusBear/caesar-cipher" alt="GitHub package.json version"></p>
+<h2>Introduction</h2>
+<p><strong>The Caesar cipher</strong> is a type of substitution cipher in which each letter in the plaintext is 'shifted' a certain number of places down the alphabet.</p>
+<h2>About application</h2>
+<p>It is a CLI application, that cipher input text.</p>
+<p>This application is created using :bookmark_tabs: :</p>
+<ul>
+<li><code>JavaScript</code> - programming language;</li>
+<li><code>Node.js</code> - <code>JavaScript</code> runtime built. (An asynchronous event-driven <code>JavaScript</code> runtime, <code>Node.js</code> is designed to build scalable network applications);</li>
+<li><code>chalk</code> - The <code>Node.js</code> module, that help styling cli messages and commands;</li>
+<li><code>inquirer</code> - The <code>Node.js</code> module, that provide the user interface, and the inquiry session flow.</li>
+</ul>
+<h2>Instructions :clipboard:</h2>
+<ol>
+<li>Download application and unpack it;</li>
+<li>Move into unpack folder;</li>
+<li>Run <code>terminal</code> inside this folder;</li>
+<li>Run next command: <code>npm run start</code>.</li>
+</ol>
+<h2>License</h2>
+<p><strong>Caesar Cipher</strong> is open-sourced software licensed under the MIT License (MIT). Please see <a href="LICENSE">License File</a> for more information</p>
+<h2>Conclusion</h2>
+<p>If you still have questions about the work of this application :grey_question: or you have cool ideas for improvement :boom:, please write to me :email:.</p>
+<p>If you find a bug :bug:, please create an appropriate issue with detailed information about it :speech_balloon:.</p>
+<p>Thanks!</p></article>
+    </section>
 
 
 
@@ -52,77 +120,29 @@
 
 <section>
 
+
 <header>
     
-        <h2>cipher.js</h2>
+        
+        <h2>
+        
+        cipher.js
+        
+        </h2>
+        
         
     
 </header>
+
 
 <article>
     <div class="container-overview">
     
         
-            <div class="description">Caesar cipher implementation on node.js</div>
+            <div class="description">Caesar cipher implementation on Node.js</div>
         
 
         
-
-
-<dl class="details">
-
-    
-    <dt class="tag-version">Version:</dt>
-    <dd class="tag-version"><ul class="dummy"><li>v1.0.0</li></ul></dd>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <dt class="tag-author">Author:</dt>
-    <dd class="tag-author">
-        <ul>
-            <li>Artem Gusev &lt;gusev2014russia@mail.ru> (CreativeRusBear)</li>
-        </ul>
-    </dd>
-    
-
-    
-    <dt class="tag-copyright">Copyright:</dt>
-    <dd class="tag-copyright"><ul class="dummy"><li>Artem Gusev 2019</li></ul></dd>
-    
-
-    
-
-    
-
-    
-    <dt class="tag-source">Source:</dt>
-    <dd class="tag-source"><ul class="dummy"><li>
-        <a href="cipher.js.html">cipher.js</a>, <a href="cipher.js.html#line1">line 1</a>
-    </li></ul></dd>
-    
-
-    
-
-    
-
-    
-</dl>
-
-
         
     
     </div>
@@ -133,9 +153,7 @@
 
     
 
-    
-
-    
+     
 
     
 
@@ -155,17 +173,20 @@
 
 </div>
 
-<nav>
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="RunCipher.html">RunCipher</a></li></ul>
-</nav>
-
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.3</a> on Sun Dec 08 2019 11:46:32 GMT+0300 (Москва, стандартное время)
+  Copyright 	&#169; 2020 Artem Gusev. All right reserved.
 </footer>
 
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
+<script>prettyPrint();</script>
+<script src="scripts/linenumber.js"></script>
+<script>
+var list = [{"title":"RunCipher","link":"<a href=\"RunCipher.html\">RunCipher</a>"},{"title":"RunCipher#answerTheQuestions","link":"<a href=\"RunCipher.html#answerTheQuestions\">RunCipher &rtrif; answerTheQuestions</a>"},{"title":"RunCipher#getRes","link":"<a href=\"RunCipher.html#getRes\">RunCipher &rtrif; getRes</a>"}];
+setupSearch(list)
+</script>
+
+ 
+<script type="text/javascript" src="scripts/misc.js"></script>
 </body>
 </html>

@@ -25,12 +25,12 @@
   "homepage": "https://github.com/corocoto/CipherOfCaesar#readme",
   "dependencies": {
     "chalk": "^3.0.0",
-    "clean-jsdoc-theme": "^2.2.11",
     "inquirer": "^7.3.3",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
-    "jsdoc": "^3.6.5"
+    "jsdoc": "^3.6.5",
+    "clean-jsdoc-theme": "^2.2.11"
   }
 }
