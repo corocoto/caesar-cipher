@@ -87,7 +87,7 @@ class RunCipher {
 	 * @param number {Number} Shift by a certain number of characters
 	 */
 	getRes (text, number) {
-		if (Number.isNaN(number) || number < 0){
+		if (Number.isNaN(number) || number < 0) {
 			throw new Error('incorrect number value');
 		}
 		while (number >= text.length) {
@@ -101,8 +101,13 @@ class RunCipher {
 				: res[i+number] = arr[i];
 		}
 		console.log(chalk.green(`Result: ${res.join('')}`));
+		return res.join('');
 	}
 }
 
 const program = new RunCipher();
 program.answerTheQuestions();
+
+module.exports = {
+	RunCipher,
+};
