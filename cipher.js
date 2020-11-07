@@ -1,5 +1,5 @@
 /**
- * @version v1.0.0
+ * @version v1.0.1
  * @file Caesar cipher implementation on Node.js
  * @author Artem Gusev (corocoto) <gusev2014russia@mail.ru>
  * @copyright Artem Gusev 2019
